@@ -6,7 +6,22 @@ namespace EjercicioCola1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+            double[] NumeroReal = new double[5];
+
+            for (byte i = 0; i <= 4; i++)
+            {
+                Console.Write("Introduce el numero {0}: ", i + 1);
+                NumeroReal[i] = Convert.ToDouble(Console.ReadLine());
+            }
+
+            Console.ReadKey();
+
+            
+
+            Console.ReadKey();
+
         }
     }
 }
